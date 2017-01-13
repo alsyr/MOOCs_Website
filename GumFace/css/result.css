@@ -1,0 +1,61 @@
+	/*---------------------AGGREGATE RESULTS---------------------*/
+	#container
+	{
+		margin: 0 auto;
+		width: 960px;
+	}
+	.course_container
+	{
+		display: inline-block;
+		width: 100%;
+		padding: 10px 0;
+		/*margin-bottom: 50px;*/
+		float: left;
+		clear: both;
+		background-color: #E5E5E5;
+		color: #161E6E;
+		text-align: left;
+	}
+
+	.course_container:nth-child(odd)
+	{
+		background-color: white;
+	}
+	.course_container h4
+	{
+		padding: 0;
+		margin: 0;
+		margin-left: 15px;
+		color: #290DC2;
+	}
+	.course_container img
+	{
+		float: left;
+		width: 150px;
+		height: 150px;
+		margin-right: 5px;
+		margin-left: 15px;
+	}
+	.course_description
+	{
+		float: left;
+		width: 45%;
+		padding: 2px 10px 2px 10px;
+		margin-left: 5px;
+		font-size: 14pt;
+		color: black;
+	}
+	.course_info
+	{
+		float: right;
+		width: 20%;
+		font-size: 12pt;
+		font-weight: bold;
+		vertical-align: top;
+	}
+	.course_info p
+	{
+		padding: 0;
+		margin: 0;
+		font-weight: normal;
+	}
